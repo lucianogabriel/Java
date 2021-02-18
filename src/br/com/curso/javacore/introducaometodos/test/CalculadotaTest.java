@@ -10,6 +10,9 @@ public class CalculadotaTest {
         calc.subtraiDoisNumeros();
         System.out.println("Continuando a Execução do código");
         calc.multiplicaDoisNumeros(16,2);
+        System.out.println("Continuando a Execução do código");
+        double result = calc.divideDoisNumeros( 525, 5);
+        System.out.println(result);
         System.out.println("Fim da execução");
 
     }
